@@ -8,13 +8,13 @@
 <br />
 <br />
 若要自己重新導入，請在gradle.properties 放入<br />
-<b>*ANDROID_BUILD_SDK_VERSION=19*<br />
-<b>*ANDROID_BUILD_TOOLS_VERSION=19.1.0*<br />
-<b>*ANDROID_BUILD_MIN_SDK_VERSION=15*<br />
-<b>*ANDROID_BUILD_TARGET_SDK_VERSION=19*<br />
+<b>*ANDROID_BUILD_SDK_VERSION=</b>19*<br />
+<b>*ANDROID_BUILD_TOOLS_VERSION=</b>19.1.0*<br />
+<b>*ANDROID_BUILD_MIN_SDK_VERSION=</b>15*<br />
+<b>*ANDROID_BUILD_TARGET_SDK_VERSION=</b>19*<br />
 
 在project build.gradle 的dependencies 裡如下所示<br />
-classpath 'com.android.tools.build:gradle:1.1.3'<br />
+<b>classpath 'com.android.tools.build:gradle:1.1.</b>3'<br />
 
 
 在app build.gradle 的dependencies 裡如下所示<br />
